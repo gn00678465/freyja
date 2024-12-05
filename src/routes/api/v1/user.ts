@@ -220,7 +220,7 @@ router.put(
      */
     '/',
     isAuth,
-    UserController.updateInfo
+    UserController.updateInfo,
 );
 
 export default router;

@@ -99,10 +99,10 @@ export const check: RequestHandler = async (req, res) => {
 };
 
 export const getInfo: RequestHandler = async (req, res) => {
-    res.send({
-        status: true,
-        result: req.user
-    });
+  res.send({
+    status: true,
+    result: req.user
+  });
 };
 
 export const updateInfo: RequestHandler = async (req, res, next) => {
